@@ -1,0 +1,7 @@
+<h2>Car on Sale</h2>
+<ul >
+    <li *ngFor="let car of cars"  (click)="onSelect(car)">
+        {{car.id}} {{car.brand}}
+    </li>
+</ul>
+<app-car-detail [car]="selectedCar"></app-car-detail>
