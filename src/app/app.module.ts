@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { CarListComponent } from './car-list/car-list.component';
 import { CarDetailComponent } from './car-detail/car-detail.component';
+import { CarService } from './car.service';
+import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -15,9 +18,11 @@ import { CarDetailComponent } from './car-detail/car-detail.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule,
+    RouterModule
   ],
-  providers: [],
+  providers: [CarService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

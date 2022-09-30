@@ -1,14 +1,8 @@
 import { Car } from "./car";
 
 export const CARS: Car[] = [
-    { id: 1, brand: 'BMW',description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius minus quaerat non quam at vitae nemo praesentium qui. Sint.' },
-    { id: 2, brand: 'Volvo',description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius minus quaerat non quam at vitae nemo praesentium qui. Sint.' },
-    { id: 3, brand: 'Mercedes',description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius minus quaerat non quam at vitae nemo praesentium qui. Sint.' },
-    { id: 4, brand: 'Honda',description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius minus quaerat non quam at vitae nemo praesentium qui. Sint.' },
-    { id: 5, brand: 'Chevrolet',description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius minus quaerat non quam at vitae nemo praesentium qui. Sint.' },
-    { id: 6, brand: 'RollsRoyce',description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius minus quaerat non quam at vitae nemo praesentium qui. Sint.' },
-    { id: 7, brand: 'Ferrari',description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius minus quaerat non quam at vitae nemo praesentium qui. Sint.' },
-    { id: 8, brand: 'Cobra',description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius minus quaerat non quam at vitae nemo praesentium qui. Sint.' },
-    { id: 9, brand: 'Dodge',description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius minus quaerat non quam at vitae nemo praesentium qui. Sint.' },
-    { id: 10, brand: 'Jaguar',description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius minus quaerat non quam at vitae nemo praesentium qui. Sint.' }
+    { id: 1, model: 'Honda Brio',description: 'Honda Brio 2022 is a 5 Seater Hatchback which is available at list price of Rp 156.9 - 236.9 Million in Indonesia. It is available in 8 colours, 7 variants, 1 engine choice, and 2 transmission options: Manual and CVT in Indonesia. The dimensions of the Brio are 3815 mm L x 1680 mm W x 1485 mm H. More than 223 users have rated the Brio based on features, mileage, seating comfort and engine performance. The lowest monthly installment starts from IDR 11.54 Million (for 60 months). The closest competitors to the Honda Brio are Agya, Ayla, Ignis and Yaris.',img:'hondaBrio.jpg',year: 2022},
+    { id: 2, model: 'Mitsubishi Xpander',description: 'The Mitsubishi Xpander 2022 is a 7 Seater MPV available at a list price of Rp 253.4 - 307.1 Million in Indonesia. It is available in 3 colours, 7 variants, 1 engine choice, and 2 transmission options: Manual and CVT in Indonesia. This car has a ground clearance of 220 mm with the following dimensions: 4595 mm L x 1750 mm W x 1750 mm H. More than 116 users have rated the Xpander based on features, mileage, seat comfort and engine performance. The lowest monthly installment starts from IDR 16 Million (for 60 months). Mitsubishi Xpanders closest competitors are Rush, Veloz, Stargazer and BRV.',img:'mitsubishiExpander.jpg',year:2022 },
+    { id: 3, model: 'Hyundai Stargazer',description: 'The Hyundai Stargazer 2022 is a 7 Seater MPV which is available at list price of Rp 243.3 - 307.1 Million in Indonesia. It is available in 6 variants, 1 engine, and 2 transmissions option: Manual and iVT in the Indonesia. The dimensions of the Stargazer are 4460 mm L x 1780 mm W x 1695 mm H. The lowest monthly installment starts from IDR 21.99 Million (for 60 months). The closest competitors to the Hyundai Stargazer are Xpander, Mobilio, Supercab and Ertiga.',img:'hyundaiStargazer.jpg',year:2022},
+    
 ];

@@ -1,5 +1,7 @@
 export class Car{
     id:number = 0;
-    brand:string = '';
+    model:string = '';
+    year:number =0 ;
     description:string = '';
+    img:string='';
 }
